@@ -1,0 +1,32 @@
+{
+  "name": "vue-admin-web",
+  "description": "vue-adnin-web-all",
+  "author": "yaimeet",
+  "targetDir": "src/base-resource",
+  "gitHost": "git@github.com",
+  "gitNamespace": "micro-development",
+  "packageKeySplit": "#",
+  "dependencies": {
+    "vue-admin-common#master": {
+      "gitRepoName": "vue-admin-common",
+      "gitBranchName": "master",
+      "lock": false
+    },
+    "vue-admin-basic#master": {
+      "gitRepoName": "vue-admin-basic",
+      "gitBranchName": "master",
+      "lock": false
+    },
+    "vue-admin-write#master": {
+      "gitRepoName": "vue-admin-write",
+      "gitBranchName": "master",
+      "lock": false
+    },
+    "vue-admin-devops#master": {
+      "gitRepoName": "vue-admin-devops",
+      "gitBranchName": "master",
+      "lock": false
+    }
+  },
+  "lock": false
+}
